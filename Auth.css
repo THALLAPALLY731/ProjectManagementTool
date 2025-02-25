@@ -1,0 +1,121 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f7fa;
+    padding: 20px;
+  }
+  
+  .auth-card {
+    width: 100%;
+    max-width: 450px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  .auth-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .auth-header h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .auth-header p {
+    color: #666;
+    font-size: 16px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: border 0.3s;
+  }
+  
+  .form-group input:focus {
+    border-color: #4a85e8;
+    outline: none;
+  }
+  
+  .forgot-password {
+    text-align: right;
+    margin-top: 8px;
+  }
+  
+  .forgot-password a {
+    color: #4a85e8;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .btn-primary {
+    width: 100%;
+    background-color: #4a85e8;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #3b76d9;
+  }
+  
+  .btn-primary:disabled {
+    background-color: #a0b9e0;
+    cursor: not-allowed;
+  }
+  
+  .auth-footer {
+    margin-top: 25px;
+    text-align: center;
+    color: #666;
+    font-size: 15px;
+  }
+  
+  .auth-footer a {
+    color: #4a85e8;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .error-message {
+    background-color: #ffebee;
+    color: #d32f2f;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .auth-card {
+      padding: 25px 20px;
+    }
+  }
